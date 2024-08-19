@@ -1,5 +1,4 @@
 // Contraints for API URL and API Key
-const apiKey = '3fd942afdc7b9647f0a7d59a299fa849';
 let apiUrl = 'https://api.openweathermap.org/data/2.5/forecast';
 
 // Selecting an element by its ID
