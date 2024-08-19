@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <meta name="description" content="Weather App displaying both current and 5 day weather forecast for any searched city. App will track your last 5 saved searches for future reference.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  
+  <div class="body-container">
+    
+    <!-- Header -->
+    <header>
+      <h1>Weather Dashboard</h1>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <div class="sidebar-container">
+        <!-- Search bar for city -->
+        <h3>Search for a City!</h3>
+        <div class="search-input">
+          <input type="text" id="city-name">
+          <input type="submit" id="weather-data" value="Search">
+        </div>
+        <!-- Search history buttons -->
+        <div id="cities-btn-container"></div>
+      </div>
+
+      <section>
+        <!-- Current weather display for searched city or button press -->
+        <div id="current-weather">Current forecast</div>
+        <!-- 5 day forecast display for searched city or button press -->
+        <div id="five-day-container">
+
+          <h3>5 Day Forecast</h3>
+
+          <div id="five-day"></div>
+
+          <!-- <img id="weather-icon" alt="Weather Icon"> -->
+
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>

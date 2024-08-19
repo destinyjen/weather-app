@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+  }
+
+  body {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+
+    min-height: 100vh;
+  }
+  
+  
+  :root {
+    --lt-blue: rgb(238, 150, 247);
+    --drk-blue: rgba(232, 145, 243, 0.874);
+  }
+  
+  .body-container {
+    margin: 2rem;
+    border: solid black;
+    padding: 1rem;
+  }
+  
+  /* Header */
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem; 
+    background-color: var(--drk-blue);
+    color: white;
+    text-align: center
+  }
+  
+  
+  /* Main */
+  
+  main {
+    display: flex;
+    margin-top: 10px;
+    
+  }
+  
+  /* Sidebar */
+  
+  main .sidebar-container {
+    margin-right: 2%;
+    width: 15%;  
+  } 
+  
+  main .sidebar-container h3 {
+    margin-bottom: .25rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  main .sidebar-container .search-input {
+   margin-bottom: 10px;
+  }
+  
+  main .sidebar-container .search-input input {
+    width: 100%;
+    
+  }
+  
+  main .sidebar-container .search-input button {
+    display: block;
+    background-color: var(--lt-blue);
+    color: white;
+    width: 100%;
+    padding: .25rem 0;
+    margin-top: .5rem;
+  }
+  
+  #cities-btn-container button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* Section */
+  
+  section {  
+    width: 80%;
+  }
+  
+  #current-weather {
+    border: solid 1px;
+    margin-bottom: 20px;
+    padding: 0 .25rem;
+    color: black;
+  }
+  
+  #current-weather > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  #five-day {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    width: 100%;
+  }
+  
+  #five-day-container > h3 {
+    margin-bottom: 10px;
+  }
+  
+  #five-day .five-day-card {
+    margin: 10px;
+    background-color: var(--drk-blue);
+    padding: .5rem;
+  }
+  
+  #five-day .five-day-card p {
+    margin-bottom: 4px;
+  }
+  
+  
+  
+  
+  
